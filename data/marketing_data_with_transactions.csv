@@ -1,4 +1,4 @@
-ID;Year_Birth; Income ;Dt_Customer;Country;transaction_date;MntWines;MntFruits;MntMeatProducts;MntFishProducts;MntSweetProducts;MntGoldProds;Total_Purchases;NumDealsPurchases;NumWebPurchases;NumCatalogPurchases;NumStorePurchases;NumWebVisitsMonth;AcceptedCmp3;AcceptedCmp4;AcceptedCmp5;AcceptedCmp1;AcceptedCmp2;Response;Complain
+ID;Year_Birth;Income;Dt_Customer;Country;transaction_date;MntWines;MntFruits;MntMeatProducts;MntFishProducts;MntSweetProducts;MntGoldProds;Total_Purchases;NumDealsPurchases;NumWebPurchases;NumCatalogPurchases;NumStorePurchases;NumWebVisitsMonth;AcceptedCmp3;AcceptedCmp4;AcceptedCmp5;AcceptedCmp1;AcceptedCmp2;Response;Complain
 7300;1952;69142;2014-06-29;India;2014-06-29;448;4;34;6;4;39;535;3;8;1;7;5;0;1;0;0;0;0;0
 1371;1976;79941;2014-06-28;Australia;2014-06-28;123;164;266;227;30;174;984;1;2;4;9;1;0;0;0;0;0;0;0
 8093;1969;79734;2014-06-28;Spain;2014-06-30;572;8;232;23;62;17;914;1;4;3;6;1;0;0;0;1;0;0;0
