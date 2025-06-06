@@ -3,8 +3,7 @@ import random
 from datetime import timedelta
 
 # 1. Read the Excel file
-input_file = 'D:/Learning/DATA PROJECT/02 Marketing campaign/marketing_data.xlsx'
-try:
+input_file = 'data/marketing_data_start.csv'
     df = pd.read_excel(input_file)
     print("✅ File loaded successfully:")
     print(df.head())
@@ -45,7 +44,7 @@ print("\n✅ New column 'random_transaction_date' created:")
 print(df[[column_name, 'random_transaction_date']].head())
 
 # 4. Save the updated DataFrame to a new Excel file
-output_file = 'D:/Learning/DATA PROJECT/02 Marketing campaign/marketing_data_with_transactions.xlsx'
+output_file = 'data/marketing_data_with_transactions.csv'
 try:
     df.to_excel(output_file, index=False)
     print(f"\n✅ File saved as '{output_file}'")
