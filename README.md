@@ -1,41 +1,41 @@
-Marketing Campaign Effectiveness Analysis
+# Marketing Campaign Effectiveness Analysis
 
-Project Summary
-The project aims to verify specific data, taken from a marketing campaign. This includes customers’ behavior across channels, selling rate by geographic region and season, also the effectiveness of the web-sales channel. Based on these conclusions, the marketing team can adjust strategies and campaigns for the most effectiveness. 
+## 📌 Project Summary
+This project aims to verify data from a marketing campaign, including customer behavior across sales channels, sales rates by geographic region and seasonality, and the effectiveness of the web-sales channel. Based on the conclusions, marketing teams can adjust strategies for maximum effectiveness.
 
-Dataset
-The basic dataset was taken from Kaggle. It includes the dataset of the retail company from 06-2012 to 06-2014. All customer data is anonymized. For some calculations, the transaction time was required. To  make this possible, the synthetic column (called transaction_date) was generated using the Python script (the script can be found in the main branch). 
+## 📊 Dataset
+The dataset was sourced from Kaggle and represents a retail company’s customers between **June 2012 and June 2014**. All data is anonymized.
 
-Tools Used:
-•	Excel — initial data cleaning
-•	Python — generating the transaction_date column
-•	PostgreSQL — data analysis, calculations, and transformations
-•	Power BI — visualizations
+To enable time-based analysis, a synthetic `transaction_date` column was generated using a Python script (available in the repository).
 
-Tasks and questions to answer:
-1. To show the percentage of web sales during the analyzed period. 
-2. To calculate the conversion rate of web sales channel. 
-3. Seasonality – what product has the best sales during each month? Additionally, what product has the highest sales rate during the period?
-4. Sales by GEO - which countries generate the most sales?
-5. Marketing Campaign Performance by Income Group - Which income segments respond most effectively to specific campaigns?
+## 🛠️ Tools Used
+- **Excel** — initial data cleaning  
+- **Python** — generating the `transaction_date` column  
+- **PostgreSQL** — data analysis, calculations, and transformations  
+- **Power BI** — dashboard visualizations  
 
-Key Insights:
-•	Web sales maintain a consistent share of 30–35% of total purchases
-•	Web conversion rate fluctuates between 15–17%
-•	Wine is the most popular product by purchase volume. During 
-•	Spain is the top-performing market by sales
-•	In all marketing campaigns, the highest conversion rate is achieved by the “High” customer group. 
+## 📋 Tasks and Questions Answered
+1. **Web Sales Share** — What percentage of all sales came from the website over time?  
+2. **Web Conversion Rate** — What was the web conversion rate by month and year?  
+3. **Seasonality** — What products sell best in each month? Which product has the highest overall sales?  
+4. **Geographic Sales** — Which countries generate the highest revenue?  
+5. **Marketing Campaign Effectiveness by Income** — Which income groups respond best to specific campaigns?
 
+## 🔍 Key Insights
+- Web sales consistently represent **30–35%** of all purchases.  
+- The web conversion rate ranges from **15–17%**.  
+- **Wine** is the top-selling product overall.  
+- **Spain** leads in total sales.  
+- Across all campaigns, the **"High" income group** shows the best response rates.
 
-Dashboard Access:
-The full Power BI dashboard is available in this repository:
-https://github.com/Thiago-Dimitrios/project_02-sales_and_marketing_analysis/blob/main/charts/marketing_campaign_visuals.pbix
+## 📈 Dashboard Access
+The Power BI dashboard is available here:  
+[📎 Download marketing_campaign_visuals.pbix](https://github.com/Thiago-Dimitrios/project_02-sales_and_marketing_analysis/blob/main/charts/marketing_campaign_visuals.pbix)
 
-Target Audience
-This project is designed for marketing and business intelligence analysts to answer questions about customer behavior, segmentation, and the effectiveness of marketing campaigns. 
+## 👥 Target Audience
+This project is intended for **marketing and business intelligence analysts** interested in customer segmentation, campaign optimization, and sales channel performance.
 
-Author & Contact
-Dmytro Petiagin
-Email: petiagin@gmail.com
-LinkedIn: https://www.linkedin.com/in/petiagin
-
+## ✉️ Author & Contact
+**Dmytro Petiagin**  
+📧 Email: petiagin@gmail.com  
+🔗 LinkedIn: [linkedin.com/in/petiagin](https://www.linkedin.com/in/petiagin)
